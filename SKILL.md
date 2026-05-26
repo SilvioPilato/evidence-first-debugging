@@ -1,9 +1,9 @@
 ---
-name: structured-debugging
+name: evidence-first-debugging
 description: Use when a bug's symptom is indirect (appears layers away from the cause), spans multiple system layers, is flaky/intermittent/timing-dependent, or when previous fix attempts failed and the investigation seems to cycle through variations of one wrong hypothesis. Covers race conditions, distributed-system bugs, platform-specific failures, and any investigation where exploring the wrong direction costs more than upfront structure. NOT for simple bugs with a clear stack trace and a single suspect file.
 ---
 
-# Structured Debugging (with an AI agent)
+# Evidence-First Debugging (with an AI agent)
 
 ## Overview
 
@@ -36,7 +36,7 @@ Use when **two or more** of these hold:
 
 **Do NOT use** for a clear stack trace pointing at one file, a compiler error, a feature request, or code explanation. The overhead isn't worth it. Just read the error, reproduce it, and fix it.
 
-When in doubt, ask the user one clarifying question before activating: *"This sounds like it might benefit from structured debugging — want me to apply the structured protocol, or attempt a direct fix first?"*
+When in doubt, ask the user one clarifying question before activating: *"This sounds like it might benefit from the evidence-first protocol — want me to apply it, or attempt a direct fix first?"*
 
 ## The Four Phases
 

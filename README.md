@@ -1,4 +1,4 @@
-# Structured Debugging
+# Evidence-First Debugging
 
 A [SKILL.md](https://www.anthropic.com/news/skills) agent skill for the bugs that don't yield to a stack trace.
 
@@ -31,13 +31,13 @@ stack trace pointing at one file — that overhead isn't worth it.
 
 ```bash
 # skills.sh
-npx skills add <owner>/structured-debugging
+npx skills add <owner>/evidence-first-debugging
 
 # agentskill.sh
-ags install structured-debugging
+ags install evidence-first-debugging
 ```
 
-Or drop the folder into your agent's skills directory (e.g. `.claude/skills/structured-debugging/`).
+Or drop the folder into your agent's skills directory (e.g. `.claude/skills/evidence-first-debugging/`).
 
 ## What's in here
 

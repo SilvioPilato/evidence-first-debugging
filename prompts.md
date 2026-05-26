@@ -1,4 +1,4 @@
-# Structured Debugging — Prompt Templates
+# Evidence-First Debugging — Prompt Templates
 
 Copy-paste prompts for each phase and interaction rule. Written for a human directing an AI agent, but the wording also works as self-instructions when you are the agent.
 

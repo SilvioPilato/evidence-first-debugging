@@ -1,4 +1,4 @@
-# Structured Debugging — Special Patterns
+# Evidence-First Debugging — Special Patterns
 
 Load this when an investigation is stuck, when a fix has failed, or when deciding whether to end a session.
 
