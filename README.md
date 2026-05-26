@@ -31,7 +31,7 @@ stack trace pointing at one file — that overhead isn't worth it.
 
 ```bash
 # skills.sh
-npx skills add <owner>/evidence-first-debugging
+npx skills add SilvioPilato/evidence-first-debugging
 
 # agentskill.sh
 ags install evidence-first-debugging
