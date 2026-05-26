@@ -1,6 +1,6 @@
 ---
 name: evidence-first-debugging
-description: Use when a bug's symptom is indirect (appears layers away from the cause), spans multiple system layers, is flaky/intermittent/timing-dependent, or when previous fix attempts failed and the investigation seems to cycle through variations of one wrong hypothesis. Covers race conditions, distributed-system bugs, platform-specific failures, and any investigation where exploring the wrong direction costs more than upfront structure. NOT for simple bugs with a clear stack trace and a single suspect file.
+description: Use when a bug's symptom is indirect (appears layers away from the cause), spans multiple system layers, is flaky/intermittent/timing-dependent, or when previous fix attempts failed and the investigation seems to cycle through variations of one wrong hypothesis. Covers race conditions, distributed-system bugs, platform-specific failures, and any investigation where exploring the wrong direction costs more than upfront structure. NOT for simple bugs with a clear stack trace and a single suspect file, and NOT for feature or setup work that merely mentions tests, logging, or debugging — e.g. adding logging/observability, building a test harness, or writing retry/error-handling code.
 ---
 
 # Evidence-First Debugging (with an AI agent)
